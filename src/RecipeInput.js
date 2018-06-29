@@ -5,7 +5,7 @@ class RecipeInput extends Component {
   static defaultProps = {
     onClose(){},
     onSave(){}
-  };
+  }
   
   constructor(props) {
     super(props);
@@ -36,7 +36,7 @@ class RecipeInput extends Component {
 
   handleChange(e) {
     this.setState({[e.target.name]: e.target.value});
-  };
+  }
 
   handleSubmit(e) {
     e.preventDefault();
@@ -110,7 +110,7 @@ class RecipeInput extends Component {
         </form>
       </div>
     );
-  };
+  }
 }
 
 export default RecipeInput;
