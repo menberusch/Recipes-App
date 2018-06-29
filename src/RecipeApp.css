@@ -1,0 +1,26 @@
+header {
+  background-color: #2d3f52;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+nav a {
+  font-weight: 500;
+  margin-left: 25px;
+}
+nav a:first-child {
+  margin-left: 0;
+}
+@media screen and (max-width: 530px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav a {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
